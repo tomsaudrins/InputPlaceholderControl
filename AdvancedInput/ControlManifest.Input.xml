@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="TomsComponents" constructor="AdvancedInput" version="0.0.2" display-name-key="AdvancedInput" description-key="AdvancedInput description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="inputElement" display-name-key="Text Field" description-key="Text field where the control should be rendered in" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="placeholder" display-name-key="Placeholder" description-key="(Optional) Placeholder message to be displayed in the item" of-type="SingleLine.Text" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/style.css" order="1" />
+    </resources>
+  </control>
+</manifest>
